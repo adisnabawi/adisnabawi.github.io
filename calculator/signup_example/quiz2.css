@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  height: 100vh;
+  background-position: center;
+  background-image: url("http://adisazizan.xyz/img/portfolio-3.jpg");
+  background-size: cover;
+  opacity: 0.6;
+}
+.right:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  background-image: linear-gradient(to top left, purple, maroon);
+  opacity: 0.6;
+  width: 50%;
+}
+
+.left {
+  float: left;
+  margin-left: 10%;
+  margin-top: 20px;
+  width: 30%;
+}
+
+input {
+  width: 100%;
+  border: 0px;
+  border-bottom: 2px solid maroon;
+  margin-top: 20px;
+}
+input:focus {
+  outline: none;
+}
+
+.fin {
+  margin-top: 30px;
+}
+.fin .check {
+  display: inline-block;
+}
+
+.cagree {
+  float: left;
+  width: 20px;
+  margin-top: 0px;
+}
+
+.sub {
+  height: 50px;
+  border: 0px;
+  background-image: linear-gradient(to top left, purple, maroon);
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+.sub:hover {
+  background-image: none;
+  background-color: maroon;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=quiz2.css.map */
+
+/*# sourceMappingURL=quiz2.css.map */
